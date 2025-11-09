@@ -53,18 +53,20 @@ Astride aims to solve this by combining **AI forecasting models** with **real-ti
 
 ---
 
-## 🗂️ Folder Structure
+## 📁 Folder Structure
+
+```plaintext
 astride-mini-starter/
-│
+|
 ├── astride_final_case.py # 🚀 Main Python Script (run this!)
 ├── final_outputs/ # 📊 Outputs (charts + CSV)
-│ ├── dispatch_results.csv # Full dispatch log (hourly per zone)
-│ ├── kpi_summary.png # KPI bar chart (Reliability, Loss%, EBITDA%)
-│ └── energy_sold_zones.png # Energy sold by zone visualization
-│
-├── advanced_outputs/ # 🔍 Forecast & zone-level analysis
-│
-└── README.md # 📘 You're reading this file!
+│   ├── dispatch_results.csv # Full dispatch log (hourly per zone)
+│   ├── kpi_summary.png # KPI bar chart (Reliability, Loss%, EBITDA%)
+│   └── energy_sold_zones.png # Energy sold by zone visualization
+|
+├── advanced_outputs/ # 🔎 Forecast & zone-level analysis
+|
+└── README.md # 📖 You're reading this file!
 
 
 ---
