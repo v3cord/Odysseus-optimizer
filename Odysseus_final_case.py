@@ -1,4 +1,4 @@
-# ================== Project ASTRIDE — Final Case Script (Realistic KPIs) ==================
+# ================== Project Odysseus — Final Case Script (Realistic KPIs) ==================
 # Targets hit: Reliability ~94% (>=82% +15%), Loss% < 9%, EBITDA ~18–28%
 #
 # ========= MODIFIED TO USE 'synthetic_data.csv' INSTEAD OF make_data() =========
