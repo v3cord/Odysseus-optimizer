@@ -1,4 +1,4 @@
-# ⚡ Project ASTRIDE: AI-Powered Renewable Energy Dispatch Optimizer
+# ⚡ Project Odysseus: AI-Powered Renewable Energy Dispatch Optimizer
 
 > **AI-based Decision Framework** for Demand–Supply Forecasting, Storage Optimization & Dynamic Bidding  
 > 🚀 Designed to align with **India’s IEX market** and renewable energy integration goals.
@@ -58,7 +58,7 @@ Astride aims to solve this by combining **AI forecasting models** with **real-ti
 ```plaintext
 astride-mini-starter/
 |
-├── astride_final_case.py # 🚀 Main Python Script (run this!)
+├── odysseus_final_case.py # 🚀 Main Python Script (run this!)
 ├── final_outputs/ # 📊 Outputs (charts + CSV)
 │   ├── dispatch_results.csv # Full dispatch log (hourly per zone)
 │   ├── kpi_summary.png # KPI bar chart (Reliability, Loss%, EBITDA%)
@@ -129,8 +129,8 @@ pip install pandas numpy scikit-learn pulp matplotlib
 
 ### 3. Run the main script and advanced output script
 ```bash
-python astride_final_case.py
-python astride_forecast_advanced.py
+python odysseus_final_case.py
+python odysseus_forecast_advanced.py
 ```
 
 Grid Reliability: 94%  (Target: 94.3%)
@@ -193,7 +193,7 @@ These visualizations help operators **anticipate shortfalls or surpluses**, impr
 ---
 
 ### 🧩 Integration with Optimization
-- Forecasted values (`gen_p50`, `demand_hat`, `price_fc`) feed directly into the **linear programming optimizer** in `astride_final_case.py`.
+- Forecasted values (`gen_p50`, `demand_hat`, `price_fc`) feed directly into the **linear programming optimizer** in `odysseus_final_case.py`.
 - This creates a **closed-loop decision system** that balances:
   - 📊 *Forecasting accuracy*  
   - ⚡ *Operational constraints*  
